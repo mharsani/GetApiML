@@ -1,0 +1,28 @@
+body {
+    background: red;
+}
+//colors
+$color-white: #fff;
+$color-yellow:  #fff059;
+$color-gray:  #333;
+$color-gray-icon:  #666;
+
+//borders
+$border-header: 1px solid #d9d9d9;
+$border-header-input:  1px solid #ccc;
+$border-header-list-page:  solid 4px #efefef;
+
+//z-index
+$z-index-header: 2;
+
+//container
+$max-width-container: 1200px;
+
+//backgrounds
+$background-header-button: linear-gradient(#fff,#f1f1f1);
+$background-body: #f8f8f8;
+
+
+//fonts
+
+$fonts-body: 100% 'Open Sans', Helvetica, Arial, sans-serif;

@@ -1,0 +1,35 @@
+.result {
+    padding-top: 115px;
+    max-width: $max-width-container;
+    width: 100%;
+    margin: 0 auto;
+    &-list {
+        border-bottom: $border-header-list-page;
+        width: 100%;
+        padding: 10px 0;
+        overflow: hidden;
+        background: $color-white;
+        cursor: pointer;
+        &__img {
+         width: 15%;
+         float: left;
+         padding-left: 20px;
+            img {
+                width: 125px;
+            }
+        }
+        &__text {
+         width: 70%;
+         float: left;
+         font-weight: bold;
+        }
+        &__price {
+             padding-top: 10x;
+             font-size: 22px;
+        }
+        &__title {
+             padding-top: 25px;
+        }
+    }
+    
+}

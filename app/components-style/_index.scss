@@ -1,0 +1,14 @@
+@import 'variables/index.scss';
+@import 'navbar/index.scss';
+@import 'product-page/index.scss';
+@import 'search/index.scss';
+@import 'list-page/index.scss';
+
+
+body {
+  font: $fonts-body;
+  color: $color-gray;
+  margin: 0;
+  background: $background-body;
+  font-size: 16px;
+}
